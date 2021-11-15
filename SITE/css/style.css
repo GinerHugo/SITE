@@ -1,0 +1,68 @@
+@font-face {
+ font-family: "font1";
+ src: url("font/Oswald-Regular.ttf");
+
+}
+
+body{
+  font-family: font1;
+  margin: 10px;
+  background-color: #F0F8FF	;
+
+}
+
+header{
+  background-color: #DCDCDC;
+  border-radius: 30px;
+}
+
+#titre {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#soustitre {
+  text-align: center;
+  color: #808080;
+}
+
+
+/*nav*/
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 0px 0px 30px 30px;
+
+
+
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/*fin nav*/
+
+.intro{
+  background-color: #DCDCDC;
+}
+
+article {
+  border-radius: 30px;
+}
